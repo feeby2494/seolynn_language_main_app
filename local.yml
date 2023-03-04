@@ -62,4 +62,4 @@ services:
     volumes:
       - ./frontend/nginx:/etc/nginx/conf.d
     ports:
-      - 81:80
+      - "81:80"
